@@ -1,0 +1,4 @@
+{
+  "name": "nginx-load-balancer",
+  "startCommand": "nginx -g 'daemon off;'"
+}
