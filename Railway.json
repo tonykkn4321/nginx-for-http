@@ -1,4 +1,9 @@
 {
   "name": "nginx-load-balancer",
-  "startCommand": "nginx -g 'daemon off;'"
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "deploy": {
+    "port": 80
+  }
 }
